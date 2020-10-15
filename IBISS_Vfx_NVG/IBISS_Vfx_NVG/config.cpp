@@ -1,4 +1,3 @@
-#include "BIS_AddonInfo.hpp"
 class CfgPatches
 {
 	class IBISS_Vfx_NVG
