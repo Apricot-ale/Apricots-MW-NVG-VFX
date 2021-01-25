@@ -1,2 +1,3 @@
 # Apricots-MW-NVG-VFX
-https://steamcommunity.com/sharedfiles/filedetails/?id=1908374667
+This is the version currently uploaded to SteamWorkShop.
+This version has been updated.
