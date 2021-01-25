@@ -1,3 +1,4 @@
+#include "BIS_AddonInfo.hpp"
 class CfgPatches
 {
 	class apr_mwnvg
@@ -10,10 +11,7 @@ class CfgPatches
 		requiredVersion = 2.00;
 		requiredAddons[] = 
 		{
-			"cba_main",
-			"ace_main",
-			"ace_common",
-			"ace_interaction"
+			"cba_main"
 		};
 		// List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content unlocking.
 		units[] = {};
@@ -25,7 +23,9 @@ class CfgFunctions
 {
 	class apr_mwnvg
 	{	
-		class nod {file = "apr_mwnvg\functions\nvgvfx.sqf";};
+		class nvgvfx {
+			class nod {file = "apr_mwnvg\functions\nvgvfx.sqf";};
+		};
 	};
 };
 class Extended_PreInit_EventHandlers
@@ -41,7 +41,7 @@ class Extended_Init_EventHandlers
 	{
 		class apr_mwnvg_init
 		{
-			init = "[] spawn apr_mwnvg_fnc_nod";
+			clientInit = "[_this select 0] spawn apr_mwnvg_fnc_nod";
 		};
 	};
 };
