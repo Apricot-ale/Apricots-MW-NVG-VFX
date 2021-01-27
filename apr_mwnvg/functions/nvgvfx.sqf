@@ -1,9 +1,9 @@
 params ["_unit"];
-systemChat "nvgvfx.sqf is loading";
-if (!hasInterface) exitWith {};
-if (!isPlayer _unit) exitWith {};
+diag_log format ["Loading nvgvfx.sqf for " + str _unit];
+if (!hasInterface) exitWith {diag_log format ["!hasInterface "  + str _unit];};
+if (!isPlayer _unit) exitWith {diag_log format ["!isPlayer "  + str _unit];};
 waitUntil{!(isNull player)};
-systemChat "nvgvfx.sqf is runnning";
+systemChat format ["nvgvfx.sqf is runnning on " + str _unit];
 
 apr_mwnvg_handle_mwace_vfx = [1, 1, 0, [0, 0, 0, 0], [0, 0.95, 1, 0], [0.30, 0.59, 0.11, 0]];
 apr_mwnvg_handle_mwstd_vfx = [1, 1, 0, [0, 0, 0, 0], [0, 1, 0.75, 0], [0.30, 0.59, 0.11, 0]];
@@ -25,18 +25,15 @@ apr_mwnvg_fnc_effect = {
 		_handle ppEffectAdjust _vfxeffect;
 		_handle ppEffectForceInNVG true;
 		_handle ppEffectCommit 0.01;
-		_isalive = true;
-		player addEventHandler ["Killed", {_isalive = false;}];
 		while {
-			(_isalive == true) &&
 			(_vfxselect == apr_mwnvg_var_vfxselect) &&
 			(_acecheck == apr_mwnvg_var_acecheck)
 		} do {
-			waitUntil {((currentVisionMode player) == 1) || (_vfxselect != apr_mwnvg_var_vfxselect) || (_acecheck != apr_mwnvg_var_acecheck) || (_isalive != true)};
+			waitUntil {((currentVisionMode player) == 1) || (_vfxselect != apr_mwnvg_var_vfxselect) || (_acecheck != apr_mwnvg_var_acecheck)};
 			_handle ppEffectEnable true;
 			waitUntil {ppEffectCommitted _handle};
 			systemChat "effect is alive";
-			waitUntil {((currentVisionMode player) != 1) || (_vfxselect != apr_mwnvg_var_vfxselect) || (_acecheck != apr_mwnvg_var_acecheck) || (_isalive != true)};
+			waitUntil {((currentVisionMode player) != 1) || (_vfxselect != apr_mwnvg_var_vfxselect) || (_acecheck != apr_mwnvg_var_acecheck)};
 			_handle ppEffectEnable false;
 			systemChat "effect remove";
 		};
