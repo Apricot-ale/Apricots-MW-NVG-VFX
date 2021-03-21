@@ -31,7 +31,7 @@
 			"Modern Warfare Phosphor",
 			"FL White Phosphor"
 		], //_valueTitles
-		0 //_defaultIndex
+		1 //_defaultIndex
 	], //_valueInfo
 	0 //_isGlobal
 ] call cba_settings_fnc_init;
