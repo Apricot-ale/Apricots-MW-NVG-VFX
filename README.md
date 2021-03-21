@@ -1,6 +1,6 @@
 # Apricot's MW NVG VFX for Arma 3
 
-*"Apricot's MW NVG VFX"* bring post-processes and overrides Arma3's Green Phosphor tinted NVGs.　　
+*"Apricot's MW NVG VFX"* bring post-processes and overrides Arma3's Green Phosphor tinted NVGs.  
 Changing them to look like MODERN WARFARE's NVGs or NVGs using White Phosphor.
 
 # DEMO
@@ -10,15 +10,15 @@ This image is enabled "MW NVG VFX" with "ACE NVG" on Arma 3.
 
 # Features
 
-This add-on will change Arma3 NVG from the obsolete Green Phosphor to a cool and modern look like White Phosphor or MODERN WARFARE.　　
+This add-on will change Arma3 NVG from the obsolete Green Phosphor to a cool and modern look like White Phosphor or MODERN WARFARE.  
 In other words, it makes the usual Arma3 even more fun!
 
 # Requirement
 
 * **Arma 3**
 * **CBA A3**
-* *ACE 3* available as an option.
-* Recommended in combination with *Bett IR*.
+* **ACE 3** available as an option.
+* Recommended in combination with **Bett IR**.
 
 # Installation
 
