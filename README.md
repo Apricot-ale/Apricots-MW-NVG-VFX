@@ -22,11 +22,13 @@ Simply Subscribe those addons at Steam Workshop, then Load from Arma 3 Launcher.
 
 ## Usage
 
-You can change phosphor tube in CBA setting listed under "Apricot's NVG VFX" with four types.  
-* Green Phosphor (Default)
-* Modern Warfare
-* White Phosphor
-
+You can change phosphor tube in CBA setting listed under "Apricot's MW NVG VFX" with 3 types.  
+* Green Phosphor (Default-Vanilla)  
+Green Phosphor is nothing change from vanilla.
+* Modern Warfare Phosphor  
+Modern Warfare is is the modernized phosphor for Combat operation Duty since 2019. 
+* FL White Phosphor  
+FL White Phosphor is based by Fat_Lurch's WP.
 See [Youtube video](https://www.youtube.com/watch?v=TKvn5cqhjD4) that uploaded by BluFalconActual for explain. (but it's for Alpha Version)
 
 ## Note
@@ -46,8 +48,6 @@ He approve my modified editon and original idea and code.
 
 ## Special Thanks
 
-* Team IBISS
-Bring me the MWNVG idea and test of Alpha version.
 * Cool of Dude Modernization Warmonger 2019™
 (yeah, you know what is this)
 
