@@ -1,10 +1,7 @@
 # Apricots-MW-NVG-VFX
-
-
 Check Original Workshop page.
 https://steamcommunity.com/sharedfiles/filedetails/?id=1908374667
 This readme is mirror of description of workshop page.
-
 
 Modified edition of [b]ALPHA RELEASE[/b] addon.
 [h1]MODERN WARFARE PHOSPHOR[/h1]
