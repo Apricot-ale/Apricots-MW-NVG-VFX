@@ -28,7 +28,8 @@ Green Phosphor is nothing change from vanilla.
 * Modern Warfare Phosphor  
 Modern Warfare is is the modernized phosphor for Combat operation Duty since 2019. 
 * FL White Phosphor  
-FL White Phosphor is based by Fat_Lurch's WP.
+FL White Phosphor is based by Fat_Lurch's WP.  
+  
 See [Youtube video](https://www.youtube.com/watch?v=TKvn5cqhjD4) that uploaded by BluFalconActual for explain. (but it's for Alpha Version)
 
 ## Note
