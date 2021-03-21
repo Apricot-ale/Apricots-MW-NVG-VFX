@@ -41,7 +41,7 @@ Server key is available.
 * Apricot_ale  
 Main Author of "Apricot's MW NVG VFX" and rewrite all codes from original "White Phosphor" addon.
 * Fat_Lurch  
-Original author of "White Phosphor" addon.  
+Original author of ["White Phosphor"](https://steamcommunity.com/sharedfiles/filedetails/?id=1792394837) addon.  
 He approve my modified editon and original idea and code.
 
 ## Special Thanks
