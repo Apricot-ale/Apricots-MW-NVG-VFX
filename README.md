@@ -32,7 +32,7 @@ See [Youtube video](https://www.youtube.com/watch?v=TKvn5cqhjD4) that uploaded b
 ## Note
 
 Servers can whitelist the addon but individual users can change and disable it if desired.  
-The mod has been tested in SP and on dedicated.  
+The mod has been tested in **Single Player** and on **Multi Player Host** and **Dedicated Server**.  
 Works fine at client side.  
 Server key is available.  
 
