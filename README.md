@@ -21,6 +21,7 @@ This image is enabled "MW NVG VFX" with "ACE NVG" on Arma 3.
 Simply Subscribe those addons at Steam Workshop, then Load from Arma 3 Launcher.
 
 ## Usage
+If you using ACE Nightvision require the enable checkbox "Using ACE Color set" for correct color.
 
 You can change phosphor tube in CBA setting listed under "Apricot's MW NVG VFX" with 3 types.  
 * Green Phosphor (Default-Vanilla)  
@@ -30,7 +31,8 @@ Modern Warfare is is the modernized phosphor for Combat operation Duty since 201
 * FL White Phosphor  
 FL White Phosphor is based by Fat_Lurch's WP.  
   
-See [Youtube video](https://www.youtube.com/watch?v=TKvn5cqhjD4) that uploaded by BluFalconActual for explain. (but it's for Alpha Version)
+See [Youtube video](https://www.youtube.com/watch?v=TKvn5cqhjD4) that uploaded by BluFalconActual for explain.  
+(but it's for Alpha Version. I'll make new version of video soon™)
 
 ## Note
 
