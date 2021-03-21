@@ -1,0 +1,4 @@
+﻿//<'IBISS_Vfx_NVG.pbo' properties via Mikero's dos tools, dll version 7.46>
+prefix=IBISS_Vfx_NVG;
+PboType=Arma Addon;
+//</properties>
