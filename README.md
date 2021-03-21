@@ -27,8 +27,7 @@ You can change phosphor tube in CBA setting listed under "Apricot's NVG VFX" wit
 * Modern Warfare
 * White Phosphor
 
-See youtube video that uploaded by BluFalconActual for explain.  
-[Youtube](https://www.youtube.com/watch?v=TKvn5cqhjD4)
+See [Youtube video](https://www.youtube.com/watch?v=TKvn5cqhjD4) that uploaded by BluFalconActual for explain. (but it's for Alpha Version)
 
 ## Note
 
@@ -39,10 +38,10 @@ Server key is available.
 
 ## Author
 
-* Apricot_ale
+* Apricot_ale  
 Main Author of "Apricot's MW NVG VFX" and rewrite all codes from original "White Phosphor" addon.
-* Fat_Lurch
-Original author of "White Phosphor" addon.
+* Fat_Lurch  
+Original author of "White Phosphor" addon.  
 He approve my modified editon and original idea and code.
 
 ## Special Thanks
