@@ -1,67 +1,59 @@
-# Apricots-MW-NVG-VFX
-Check Original Workshop page.
-https://steamcommunity.com/sharedfiles/filedetails/?id=1908374667
-This readme is mirror of description of workshop page.
+# Apricot's MW NVG VFX for Arma 3
 
-Modified edition of [b]ALPHA RELEASE[/b] addon.
-[h1]MODERN WARFARE PHOSPHOR[/h1]
-This addon upgrades all NODs (NVGs) with white phosphor technology tubes that used in MODERN WARFARE.
+"Apricot's MW NVG VFX" bring post-processes and overrides Arma3's Green Phosphor tinted NVGs, changing them to look like MODERN WARFARE's NVGs or NVGs using White Phosphor.
 
-[h1]SETUP:[/h1]
-This mod requires [b]ACE3 and CBA_A3.[/b]
-You can change phosphor tube in CBA setting listed under [b]"Apricot's NVG VFX"[/b] with four types.
-[table]
-    [tr]
-        [th]Green Phosphor (Default)[/th]
-        [td]Addon's default. Green-Greens. aka-Disabled.[/td]
-    [/tr]
-    [tr]
-        [th]Hybrid[/th]
-        [td]It's Green than MW type. My man say'd "this one is real!" but I'm not.[/td]
-    [/tr]
-    [tr]
-        [th]Modern Warfare[/th]
-        [td]I think this one is real Modern Warfare Colorset. I like it.[/td]
-    [/tr]
-    [tr]
-        [th]White Phosphor[/th]
-        [td]The Origin. Fat_Lurch's White Phosphor.[/td]
-    [/tr]
-[/table]
+# DEMO
+ 
+![](https://steamuserimages-a.akamaihd.net/ugc/998053045174517876/924538BB69FF798A04B83271905E5AFB7C7B82D5/)
+
+This image is enabled "MW NVG VFX" with "ACE NVG" on Arma 3.
+
+# Features
+
+This add-on will change Arma3 NVG from the obsolete Green Phosphor to a cool and modern look like White Phosphor or MODERN WARFARE.
+In other words, it makes the usual Arma3 even more fun!
+
+# Requirement
+
+* Arma 3
+* CBA A3
+
+* ACE 3 available as an option.
+* Recommended in combination with Bett IR.
+
+# Installation
+
+Simply Subscribe those addons at Steam Workshop, then Load from Arma 3 Launcher.
+
+# Usage
+
+You can change phosphor tube in CBA setting listed under "Apricot's NVG VFX" with four types.
+Green Phosphor (Default)	Addon's default. Green-Greens. aka-Disabled.
+Hybrid	It's Green than MW type. My man say'd "this one is real!" but I'm not.
+Modern Warfare	I think this one is real Modern Warfare Colorset. I like it.
+White Phosphor	The Origin. Fat_Lurch's White Phosphor.
+
+See youtube video that uploaded by BluFalconActual for explain.
+[Youtube](https://www.youtube.com/watch?v=TKvn5cqhjD4)
+
+# Note
+
 Servers can whitelist the addon but individual users can change and disable it if desired.
 The mod has been tested in SP and on dedicated.
 Works fine at client side.
 Server key is available.
 
-See youtube video that uploaded by BluFalconActual for explain.
+# Author
 
-[h1]Disclaimer:[/h1]
-This add-on was created based on the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1792394837]White Phosphor[/url] add-on by [url=https://steamcommunity.com/profiles/76561197977538474/myworkshopfiles/?appid=107410]Fat_Lurch[/url].
-Therefore...
-This mod [b]conflict[/b] with Fat_Lurch's [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1792394837]White Phosphor[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1807445586]NOD Colorize Addon[/url] series.
-[b]Use only one of them.[/b] If you doesn't, I don't care.
+*- Apricot_ale: Main Author of "Apricot's MW NVG VFX" and rewrite all codes from original "White Phosphor" addon.
+*- Fat_Lurch: Original author of "White Phosphor" addon.
+He approve my modified editon and original idea and code.
 
-[h1]Work in Progress![/h1]
-This mod is in Alpha release. Right now this overwrites the green hue of vehicle screens. Fat_Lurch will be developing more stringent code to detect these cases so that the white phosphor effect is only activated at appropriate times.
+# Special Thanks
 
-But I think he doesn't seem to have much time for this, so I'm working on my own version.
-I'm working on [url=https://github.com/Apricot-ale/Apricots-MW-NVG-VFX]this Git[/url].
-I would appreciate it if you could cooperate.
+*- Team IBISS bring me the MWNVG idea and test of Alpha version.
+*- Cool of Dude Modernization Warmonger 2019™ (yeah, you know what is this)
 
-[h1]Known Issues:[/h1]
-Colour filter does not work when saving and loading a mission in progress.
-May not work properly in vehicle night vision view.
-If you were using NVGs before entering spectator mode (and the colour filter was working when you died), the colour filter will be applied in all states of spectator mode.
-If ACE NVG is disabled, the expected colour tone is not achieved. (Because this add-on further modifies the ACE NVG tonal change. In other words, it is not the tint it is supposed to be in vanilla).
-
-*No compatibility check with A3TI has been carried out.
-
-[h1]Credits and Thanks:[/h1]
-- Thanks to Original author [url=https://steamcommunity.com/profiles/76561197977538474/myworkshopfiles/?appid=107410]Fat_Lurch[/url] he approve my modified editon!
-- Team IBISS bring me the idea and test.
-- Cool of Dude Modernization Warmonger 2019™
-
-[h1]Recommended Addon:[/h1]
-Vestarr's [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2260572637]BettIR[/url] for Brighter NVG like a MW!.
-
-For anyone who would like to see different color settings & non ACE edition, please check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1807445586]Fat_Lurch NOD Colorize Addon[/url] - it gives you full control over the color of your NODs.
+# License
+ 
+"Apricot's MW NVG VFX" is under [Arma Public License Share Alike (APL-SA)](https://www.bohemia.net/community/licenses/arma-public-license-share-alike).
