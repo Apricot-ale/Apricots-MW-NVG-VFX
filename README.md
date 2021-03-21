@@ -1,5 +1,11 @@
 # Apricots-MW-NVG-VFX
 
+
+Check Original Workshop page.
+https://steamcommunity.com/sharedfiles/filedetails/?id=1908374667
+This readme is mirror of description of workshop page.
+
+
 Modified edition of [b]ALPHA RELEASE[/b] addon.
 [h1]MODERN WARFARE PHOSPHOR[/h1]
 This addon upgrades all NODs (NVGs) with white phosphor technology tubes that used in MODERN WARFARE.
@@ -62,5 +68,3 @@ If ACE NVG is disabled, the expected colour tone is not achieved. (Because this 
 Vestarr's [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2260572637]BettIR[/url] for Brighter NVG like a MW!.
 
 For anyone who would like to see different color settings & non ACE edition, please check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1807445586]Fat_Lurch NOD Colorize Addon[/url] - it gives you full control over the color of your NODs.
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=1908374667
