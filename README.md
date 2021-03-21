@@ -1,6 +1,7 @@
 # Apricot's MW NVG VFX for Arma 3
 
 "Apricot's MW NVG VFX" bring post-processes and overrides Arma3's Green Phosphor tinted NVGs.
+
 Changing them to look like MODERN WARFARE's NVGs or NVGs using White Phosphor.
 
 # DEMO
@@ -12,6 +13,7 @@ This image is enabled "MW NVG VFX" with "ACE NVG" on Arma 3.
 # Features
 
 This add-on will change Arma3 NVG from the obsolete Green Phosphor to a cool and modern look like White Phosphor or MODERN WARFARE.
+
 In other words, it makes the usual Arma3 even more fun!
 
 # Requirement
@@ -29,20 +31,19 @@ Simply Subscribe those addons at Steam Workshop, then Load from Arma 3 Launcher.
 # Usage
 
 You can change phosphor tube in CBA setting listed under "Apricot's NVG VFX" with four types.
-Green Phosphor (Default)	Addon's default. Green-Greens. aka-Disabled.
-Hybrid	It's Green than MW type. My man say'd "this one is real!" but I'm not.
-Modern Warfare	I think this one is real Modern Warfare Colorset. I like it.
-White Phosphor	The Origin. Fat_Lurch's White Phosphor.
+*Green Phosphor (Default)	Addon's default. Green-Greens. aka-Disabled.
+*Modern Warfare	I think this one is real Modern Warfare Colorset. I like it.
+*White Phosphor	The Origin. Fat_Lurch's White Phosphor.
 
 See youtube video that uploaded by BluFalconActual for explain.
 [Youtube](https://www.youtube.com/watch?v=TKvn5cqhjD4)
 
 # Note
 
-Servers can whitelist the addon but individual users can change and disable it if desired.
-The mod has been tested in SP and on dedicated.
-Works fine at client side.
-Server key is available.
+*Servers can whitelist the addon but individual users can change and disable it if desired.
+*The mod has been tested in SP and on dedicated.
+*Works fine at client side.
+*Server key is available.
 
 # Author
 
