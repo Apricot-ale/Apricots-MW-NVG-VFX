@@ -18,9 +18,9 @@
 	[
 		"NOD Tube Color (NV Color)",
 		"
-		Green Phosphor is no different to Vanilla (Arma 3 Default). It is classic and easy on the eyes.\n
-		Modern Warfare is a modernised phosphor used for Combat operation Duty (CoD) from 2019 onwards.\n
-		FL White Phosphor is based on Fat_Lurch's WP. It is generally used in the NewGen-NVGs.\n
+		Green Phosphor is no different to Vanilla (Arma 3 Default). It's classic and easy on the eyes.\n
+		Modern Warfare is a modernised phosphor. Used for Combat operation Duty (CoD) from 2019 onwards.\n
+		FL White Phosphor is based on Fat_Lurch's WP. It's generally used in the NewGen-NVGs.\n
 		"
 	], //_title
 	"Apricot's MW NVG VFX", //_category LIST --- extra arguments: [_values, _valueTitles, _defaultIndex];
