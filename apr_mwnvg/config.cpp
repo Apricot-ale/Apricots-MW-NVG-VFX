@@ -7,7 +7,7 @@ class CfgPatches
 		author = "Apricot_ale";
 		url = "";
 
-		requiredVersion = 2.00;
+		requiredVersion = 2.02;
 		requiredAddons[] = 
 		{
 			"cba_main"
