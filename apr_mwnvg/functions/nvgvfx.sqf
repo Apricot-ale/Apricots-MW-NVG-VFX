@@ -1,24 +1,16 @@
 params ["_unit"];
-/*
-diag_log format ["Loading nvgvfx.sqf for " + str _unit];
-if (!hasInterface) exitWith {diag_log format ["!hasInterface "  + str _unit];};
-if (!isPlayer _unit) exitWith {diag_log format ["!isPlayer "  + str _unit];};
-waitUntil{!(isNull player)};
-*/
-if (!hasInterface) exitWith {};
+if (isDedicated) exitWith {};
+if (isServer && (!hasInterface)) exitWith {};
 if (!isPlayer _unit) exitWith {};
 waitUntil{!(isNull player)};
 
-//systemChat format ["nvgvfx.sqf is runnning on " + str _unit];
-
-apr_mwnvg_handle_mwace_vfx = [1, 1.0, 0, [0, 0.10, 0.20, 0], [0.00, 0.95, 1.00, 0], [0.30, 0.59, 0.11, 0]];
+apr_mwnvg_handle_mwace_vfx = [1, 1.0, 0, [0, 0.10, 0.20, 0], [0.00, 1.00, 1.20, 0], [0.30, 0.59, 0.11, 0]];
 apr_mwnvg_handle_mwstd_vfx = [1, 1.0, 0, [0, 0.00, 0.00, 0], [0.00, 1.00, 0.75, 0], [0.30, 0.59, 0.11, 0]];
 apr_mwnvg_handle_wpace_vfx = [1, 1.0, 0, [0, 0.10, 0.20, 0], [0.40, 1.40, 2.40, 0], [0.30, 0.59, 0.11, 0]];
 apr_mwnvg_handle_wpstd_vfx = [1, 1.0, 0, [0, 0.00, 0.00, 0], [0.25, 0.75, 0.80, 0], [0.30, 0.59, 0.11, 0]];
 
 apr_mwnvg_fnc_effect = {
 	params ["_vfxeffect", "_vfxselect", "_acecheck"];
-	//systemChat "apr_mwnvg_fnc_effect is called";
 	["ColorCorrections", 1501, _vfxeffect, _vfxselect, _acecheck] spawn {
 		params ["_name", "_priority", "_vfxeffect", "_vfxselect", "_acecheck"];
 		private ["_handle", "_isalive"];
@@ -38,10 +30,8 @@ apr_mwnvg_fnc_effect = {
 			waitUntil {((currentVisionMode player) == 1) || (_vfxselect != apr_mwnvg_var_vfxselect) || (_acecheck != apr_mwnvg_var_acecheck)};
 			_handle ppEffectEnable true;
 			waitUntil {ppEffectCommitted _handle};
-			//systemChat "effect is alive";
 			waitUntil {(!alive player) || ((currentVisionMode player) != 1) || (_vfxselect != apr_mwnvg_var_vfxselect) || (_acecheck != apr_mwnvg_var_acecheck)};
 			_handle ppEffectEnable false;
-			//systemChat "effect remove";
 		};
 		ppEffectDestroy _handle;
 		call apr_mwnvg_fnc_select;
@@ -50,7 +40,6 @@ apr_mwnvg_fnc_effect = {
 
 apr_mwnvg_fnc_select = {
 	private ["_vfxeffect", "_vfxselect", "_acecheck"];
-	//systemChat "apr_mwnvg_fnc_select is started";
 	_vfxeffect = 0;
 	_vfxselect = apr_mwnvg_var_vfxselect;
 	_acecheck = apr_mwnvg_var_acecheck;	
@@ -87,5 +76,3 @@ apr_mwnvg_fnc_select = {
 };
 
 call apr_mwnvg_fnc_select;
-
-//I have no idea what how detect nvg turn on at spectater screen...
