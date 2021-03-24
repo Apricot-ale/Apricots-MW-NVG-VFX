@@ -19,7 +19,7 @@ diag_log format ["apr_mwnvg: nvgvfx.sqf is runnning on " + str _unit];
 systemChat format ["apr_mwnvg: nvgvfx.sqf is runnning on " + str _unit];
 */
 
-apr_mwnvg_handle_mwace_vfx = [1, 1.0, 0, [0, 0.10, 0.20, 0], [0.00, 1.00, 1.20, 0], [0.30, 0.59, 0.11, 0]];
+apr_mwnvg_handle_mwace_vfx = [1, 1.0, 0, [0, 0.10, 0.20, 0], [0.20, 1.20, 1.60, 0], [0.30, 0.59, 0.11, 0]];
 apr_mwnvg_handle_mwstd_vfx = [1, 1.0, 0, [0, 0.00, 0.00, 0], [0.00, 1.00, 0.75, 0], [0.30, 0.59, 0.11, 0]];
 apr_mwnvg_handle_wpace_vfx = [1, 1.0, 0, [0, 0.10, 0.20, 0], [0.40, 1.40, 2.40, 0], [0.30, 0.59, 0.11, 0]];
 apr_mwnvg_handle_wpstd_vfx = [1, 1.0, 0, [0, 0.00, 0.00, 0], [0.25, 0.75, 0.80, 0], [0.30, 0.59, 0.11, 0]];
