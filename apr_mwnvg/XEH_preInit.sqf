@@ -2,7 +2,7 @@
 	"apr_mwnvg_var_acecheck", //_setting
 	"CHECKBOX", //_settingType
 	[
-		"Using Color set for ACE Nightvision",
+		"Use color preset for ACE Nightvision",
 		"
 			Please ENABLE if you using ACE Nightvision module.
 		"
