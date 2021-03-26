@@ -6,7 +6,7 @@ Changing them to look like "MODERN WARFARE" White Phosphor NVG.
 
 ## DEMO
  
-![](https://steamuserimages-a.akamaihd.net/ugc/1735548302426017732/241DAD4647409A56B2F007AF3846BAB9462BDECE/)
+![](https://steamuserimages-a.akamaihd.net/ugc/1714156502686863884/DABE8769B3B75BA25AD39FB7874BAA58655B937C/)
 This image is enabled "MW NVG VFX" with "ACE NVG" on Arma 3.
 
 ## Requirement
